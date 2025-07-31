@@ -3,7 +3,7 @@
             {
                 title: "Lab Skills, Microscopy, & Scientific Method",
                 difficulty: "Introductory",
-                duration: "45 min",
+                duration: "5 min",
                 concepts: [
                     {
                         term: "Experimental Variable (Independent Variable)",
@@ -35,7 +35,7 @@
             {
                 title: "The Study of Life & Ecology",
                 difficulty: "Intermediate",
-                duration: "60 min",
+                duration: "5 min",
                 concepts: [
                     {
                         term: "Symbiotic Relationships",
@@ -72,7 +72,7 @@
             {
                 title: "Biochemistry",
                 difficulty: "Advanced",
-                duration: "75 min",
+                duration: "15 min",
                 concepts: [
                     {
                         term: "4 Elements of Living Things",
@@ -118,7 +118,7 @@
             {
                 title: "Cell Structure & Function",
                 difficulty: "Intermediate",
-                duration: "65 min",
+                duration: "10 min",
                 concepts: [
                     {
                         term: "Cell Theory",
@@ -173,7 +173,7 @@
             {
                 title: "Photosynthesis & Respiration",
                 difficulty: "Advanced",
-                duration: "70 min",
+                duration: "10 min",
                 concepts: [
                     {
                         term: "ATP/ADP Cycle",
@@ -218,7 +218,7 @@
             {
                 title: "Cell Division",
                 difficulty: "Expert",
-                duration: "80 min",
+                duration: "10 min",
                 concepts: [
                     {
                         term: "Factors Affecting Cell Size",
@@ -264,7 +264,7 @@
             {
                 title: "Genetics",
                 difficulty: "Expert",
-                duration: "85 min",
+                duration: "10 min",
                 concepts: [
                     {
                         term: "Mendel’s Three Laws",
@@ -305,7 +305,7 @@
             {
                 title: "DNA, Genes, & Chromosomes",
                 difficulty: "Expert",
-                duration: "90 min",
+                duration: "10 min",
                 concepts: [
                     {
                         term: "DNA Structure",
@@ -351,7 +351,7 @@
             {
                 title: "Protein Synthesis & Biotechnology",
                 difficulty: "Expert",
-                duration: "95 min",
+                duration: "10 min",
                 concepts: [
                     {
                         term: "Protein Synthesis",
@@ -393,7 +393,7 @@
             {
                 title: "Evolution",
                 difficulty: "Expert",
-                duration: "90 min",
+                duration: "5 min",
                 concepts: [
                     {
                         term: "Variation & Adaptation",
