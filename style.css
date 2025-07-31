@@ -359,10 +359,88 @@ body {
   height: 20px;
 }
 
+/* Review Links Grid Style */
+.review-links-section {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 
+.review-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  
+  border-bottom: 2px solid var(--primary-200); /* Adds the horizontal line */
+  padding-bottom: 1rem; /* Spacing below the links */
+}
+
+.review-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem; /* Adjusted padding for a more compact look */
+  background: transparent; /* No background color */
+  border: none; /* No border */
+  color: var(--primary-800);
+  text-decoration: none;
+  font-weight: 500; /* Lighter font weight for the links */
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.review-link::before {
+  content: '';
+  position: absolute;
+  bottom: -1rem; /* Positions the blue line below the link */
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--accent-blue); /* The blue underline color */
+  transition: width 0.3s ease;
+}
+
+.review-link:hover {
+  color: var(--accent-blue);
+  transform: none; /* Removed the translateY on hover to match the image */
+  box-shadow: none; /* Removed box-shadow on hover */
+}
+
+.review-link:hover::before {
+  width: 100%; /* Expands the blue line on hover */
+}
+
+.review-link span {
+  font-size: 1.2rem;
+}
+
+/* Style for the "Google Classroom Review Pages" title */
+.review-links-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-800);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-200);
+  position: relative;
+  display: inline-block;
+}
+
+.review-links-section h3::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: var(--accent-blue);
+}
 
 .content-section {
     margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .content-section h3 {
